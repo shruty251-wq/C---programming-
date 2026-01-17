@@ -9,7 +9,6 @@ int main() {
     scanf("%d", &digit);
 
     if (digit >= 0 && digit <= 9) {
-        // Print the string at the index matching the digit
         printf("%s\n", words[digit]);
     } else {
         printf("Invalid input! Please enter a digit between 0 and 9.\n");
